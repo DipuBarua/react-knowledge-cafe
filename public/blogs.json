@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/BN1VMnf/1.jpg",
+      "title": "Book 1",
+      "author_img": "https://i.ibb.co/3fvsFtV/boy1.png",
+      "author": "Author 1",
+      "posted_date": "2023-09-14",
+      "reading_time": 120, 
+      "hashtags": [
+            "#fiction",
+            "#bestseller"
+        ]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/0hQcCMn/2.png",
+      "title": "Book 2",
+      "author_img": "https: //i.ibb.co/3r5QSLw/boy2.jpg",
+      "author": "Author 2",
+      "posted_date": "2023-09-13",
+      "reading_time": 180, 
+      "hashtags": [
+            "#mystery",
+            "#thriller"
+        ]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/DrKk4Th/3.png",
+      "title": "Book 3",
+      "author_img": "https://i.ibb.co/kKNkvcZ/girl1.jpg",
+      "author": "Author 3",
+      "posted_date": "2023-09-12",
+      "reading_time": 90, 
+      "hashtags": [
+            "#romance",
+            "#love"
+        ]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/87JHvM3/4.jpg",
+      "title": "Book 4",
+      "author_img": "https://i.ibb.co/kKNkvcZ/girl1.jpg",
+      "author": "Author 4",
+      "posted_date": "2023-09-11",
+      "reading_time": 150, 
+      "hashtags": [
+            "#sciencefiction",
+            "#space"
+        ]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/87JHvM3/4.jpg",
+      "title": "Book 5",
+      "author_img": "https://i.ibb.co/6NgD2y6/girl2.jpg",
+      "author": "Author 5",
+      "posted_date": "2023-09-10",
+      "reading_time": 60,
+      "hashtags": [
+            "#fantasy",
+            "#magic"
+        ]
+    }
+]
