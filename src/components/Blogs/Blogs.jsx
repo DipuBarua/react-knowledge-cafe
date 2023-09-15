@@ -1,7 +1,9 @@
+import PropTypes from 'prop-types';
 import { useEffect } from "react";
 import { useState } from "react";
+import Blog from "../Blog/Blog";
 
-const Blogs = () => {
+const Blogs = ({ handleAddToBookmark, handleReadingTime }) => {
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
@@ -11,11 +13,25 @@ const Blogs = () => {
     }, []);
 
     return (
-        <div>
-            <h1>this is blogs</h1>
-            {/* {blogs.map((blog,id)=><img key={id} src={blog?.cover} alt="" />)} */}
+        <div className=" md:w-2/3">
+            <h1 className=" text-2xl font-bold">Blogs {blogs.length}</h1>
+            {
+                blogs.map((blog) => <Blog
+                    key={blog.id}
+                    blog={blog}
+                    handleAddToBookmark={handleAddToBookmark}
+                    handleReadingTime={handleReadingTime}
+                ></Blog>)
+            }
+
         </div>
     );
 };
+
+// to fix props error>> install npm props
+Blogs.propTypes = {
+    handleAddToBookmark: PropTypes.func,
+    handleReadingTime: PropTypes.func,
+}
 
 export default Blogs;
